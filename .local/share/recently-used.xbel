@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/junkcarlos/Descargas/composer.phar" added="2016-03-09T00:24:49Z" modified="2016-03-09T00:24:49Z" visited="2016-03-09T00:24:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-03-09T00:24:49Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/junkcarlos/Descargas/sublime_text_3_build_3103_x64.tar.bz2" added="2016-03-11T04:23:17Z" modified="2016-03-12T23:22:53Z" visited="2016-03-11T04:23:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-bzip-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-03-11T04:23:17Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;file-roller %U&apos;" modified="2016-03-12T23:22:51Z" count="2"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2016-03-12T23:22:53Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/junkcarlos/Descargas" added="2016-03-11T04:27:24Z" modified="2016-03-13T01:07:30Z" visited="2016-03-11T04:27:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Archive Manager" exec="&apos;file-roller %u&apos;" modified="2016-03-13T01:07:30Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/PhpStorm-10.0.3.tar.gz" added="2016-03-11T04:42:19Z" modified="2016-03-11T04:42:19Z" visited="2016-03-11T04:42:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-03-11T04:42:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/junkcarlos/Descargas/JetBrains%20PhpStorm%2010%20Patch%20%20%20Activation%20Code.zip" added="2016-03-11T04:59:07Z" modified="2016-03-11T04:59:10Z" visited="2016-03-11T04:59:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-03-11T04:59:07Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2016-03-11T04:59:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/junkcarlos/.cache/.fr-StXm0w/type%20%201106" added="2016-03-11T04:59:15Z" modified="2016-03-11T04:59:15Z" visited="2016-03-11T04:59:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-11T04:59:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/Laravel" added="2016-03-12T23:24:04Z" modified="2016-03-12T23:48:45Z" visited="2016-03-12T23:24:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2016-03-12T23:48:45Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/junkcarlos/Im%C3%A1genes/Captura%20de%20pantalla%20de%202016-03-12%2017:29:41.png" added="2016-03-12T23:29:41Z" modified="2016-03-12T23:29:41Z" visited="2016-03-12T23:29:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-settings-daemon" exec="&apos;gnome-settings-daemon %u&apos;" modified="2016-03-12T23:29:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/junkcarlos/Im%C3%A1genes/Captura%20de%20pantalla%20de%202016-03-12%2017:40:48.png" added="2016-03-12T23:40:48Z" modified="2016-03-13T20:13:57Z" visited="2016-03-12T23:40:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gnome-settings-daemon" exec="&apos;gnome-settings-daemon %u&apos;" modified="2016-03-12T23:40:48Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2016-03-13T20:13:56Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2016-03-13T20:13:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/junkcarlos/Im%C3%A1genes/Captura%20de%20pantalla%20de%202016-03-12%2017:42:47.png" added="2016-03-12T23:42:47Z" modified="2016-03-12T23:42:47Z" visited="2016-03-12T23:42:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-settings-daemon" exec="&apos;gnome-settings-daemon %u&apos;" modified="2016-03-12T23:42:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/junkcarlos/Im%C3%A1genes/Captura%20de%20pantalla%20de%202016-03-12%2017:47:14.png" added="2016-03-12T23:47:14Z" modified="2016-03-12T23:47:14Z" visited="2016-03-12T23:47:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-settings-daemon" exec="&apos;gnome-settings-daemon %u&apos;" modified="2016-03-12T23:47:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/Laravel/app" added="2016-03-12T23:48:27Z" modified="2016-03-12T23:48:27Z" visited="2016-03-12T23:48:27Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2016-03-12T23:48:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/Laravel/resources/views/vistapokes/principal.blade.php" added="2016-03-12T23:52:13Z" modified="2016-03-12T23:54:24Z" visited="2016-03-12T23:52:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2016-03-12T23:54:24Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/junkcarlos/Im%C3%A1genes/Captura%20de%20pantalla%20de%202016-03-12%2018:17:49.png" added="2016-03-13T00:17:49Z" modified="2016-03-13T00:17:49Z" visited="2016-03-13T00:17:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-settings-daemon" exec="&apos;gnome-settings-daemon %u&apos;" modified="2016-03-13T00:17:49Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/junkcarlos/Im%C3%A1genes/Captura%20de%20pantalla%20de%202016-03-12%2018:18:09.png" added="2016-03-13T00:18:10Z" modified="2016-03-13T00:18:10Z" visited="2016-03-13T00:18:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-settings-daemon" exec="&apos;gnome-settings-daemon %u&apos;" modified="2016-03-13T00:18:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/junkcarlos/Descargas/bootstrap-3.3.6-dist.zip" added="2016-03-13T01:07:21Z" modified="2016-03-13T01:07:24Z" visited="2016-03-13T01:07:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-03-13T01:07:21Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2016-03-13T01:07:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/Laravel/resources/views/vistapokes/registropoke.blade.php" added="2016-03-13T04:25:34Z" modified="2016-03-13T04:25:34Z" visited="2016-03-13T04:25:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2016-03-13T04:25:34Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/Laravel/resources/views/vistapokes/vistaheader.blade.php" added="2016-03-13T07:09:24Z" modified="2016-03-13T07:09:24Z" visited="2016-03-13T07:09:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2016-03-13T07:09:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/Laravel/resources/views/vistapokes/actualizar.blade.php" added="2016-03-13T07:23:45Z" modified="2016-03-13T07:23:45Z" visited="2016-03-13T07:23:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2016-03-13T07:23:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/Laravel/resources/views/vistacuerpo/vpokecuerpo.blade.php" added="2016-03-13T20:50:58Z" modified="2016-03-13T20:50:58Z" visited="2016-03-13T20:50:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2016-03-13T20:50:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/Laravel/public/css/h.css" added="2016-03-13T21:05:05Z" modified="2016-03-13T21:05:05Z" visited="2016-03-13T21:05:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2016-03-13T21:05:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/Laravel/resources/views/vistapokes/pruba.blade.php" added="2016-03-13T21:13:08Z" modified="2016-03-13T21:13:08Z" visited="2016-03-13T21:13:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2016-03-13T21:13:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/Laravel/resources/views/vistapokes/prueba.blade.php" added="2016-03-13T21:14:07Z" modified="2016-03-13T21:14:07Z" visited="2016-03-13T21:14:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2016-03-13T21:14:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/Laravel/composer.json" added="2016-03-13T21:43:02Z" modified="2016-03-13T21:43:05Z" visited="2016-03-13T21:43:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2016-03-13T21:43:02Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-13T21:43:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

@@ -1,0 +1,577 @@
+			var pnetShowITR = true;
+		
+
+pnetAdap = document.createElement('script');
+pnetAdap.type = "text/javascript";
+pnetAdap.language = "Javascript";
+pnetAdap.src = "//redir.adap.tv/redir/javascript/lightintegration.js";
+document.body.appendChild(pnetAdap);
+
+pnetTidal = document.createElement('script');
+pnetTidal.type = "text/javascript";
+pnetTidal.language = "Javascript";
+pnetTidal.src = "//sync.tidaltv.com/GenericUserSync.ashx?dpid=2395";
+document.body.appendChild(pnetTidal);
+
+
+
+if (typeof adKeyword == "undefined"){var adKeyword = "";}
+
+ if(document.getElementById("pbnet_preload")!=null || document.getElementById("pnet_preload")!=null){
+	pnetShowITR = false;  
+  }
+
+if(pnetShowITR){
+
+var pbnet_video_path = "http://video.publicidad.tv/";
+
+var BrowserDetect = {
+				init: function () {
+					this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
+					this.version = this.searchVersion(navigator.userAgent)
+						|| this.searchVersion(navigator.appVersion)
+						|| "an unknown version";
+					this.OS = this.searchString(this.dataOS) || "an unknown OS";
+				},
+				searchString: function (data) {
+					for (var i=0;i<data.length;i++)	{
+						var dataString = data[i].string;
+						var dataProp = data[i].prop;
+						this.versionSearchString = data[i].versionSearch || data[i].identity;
+						if (dataString) {
+							if (dataString.indexOf(data[i].subString) != -1)
+								return data[i].identity;
+						}
+						else if (dataProp)
+							return data[i].identity;
+					}
+				},
+				searchVersion: function (dataString) {
+					var index = dataString.indexOf(this.versionSearchString);
+					if (index == -1) return;
+					return parseFloat(dataString.substring(index+this.versionSearchString.length+1));
+				},
+				dataBrowser: [
+					{
+						string: navigator.userAgent,
+						subString: "Chrome",
+						identity: "Chrome"
+					},
+					{ 	string: navigator.userAgent,
+						subString: "OmniWeb",
+						versionSearch: "OmniWeb/",
+						identity: "OmniWeb"
+					},
+					{
+						string: navigator.vendor,
+						subString: "Apple",
+						identity: "Safari",
+						versionSearch: "Version"
+					},
+					{
+						prop: window.opera,
+						identity: "Opera",
+						versionSearch: "Version"
+					},
+					{
+						string: navigator.vendor,
+						subString: "iCab",
+						identity: "iCab"
+					},
+					{
+						string: navigator.vendor,
+						subString: "KDE",
+						identity: "Konqueror"
+					},
+					{
+						string: navigator.userAgent,
+						subString: "Firefox",
+						identity: "Firefox"
+					},
+					{
+						string: navigator.vendor,
+						subString: "Camino",
+						identity: "Camino"
+					},
+					{		// for newer Netscapes (6+)
+						string: navigator.userAgent,
+						subString: "Netscape",
+						identity: "Netscape"
+					},
+					{
+						string: navigator.userAgent,
+						subString: "MSIE",
+						identity: "Explorer",
+						versionSearch: "MSIE"
+					},
+					{
+						string: navigator.userAgent,
+						subString: "Gecko",
+						identity: "Mozilla",
+						versionSearch: "rv"
+					},
+					{ 		// for older Netscapes (4-)
+						string: navigator.userAgent,
+						subString: "Mozilla",
+						identity: "Netscape",
+						versionSearch: "Mozilla"
+					}
+				],
+				dataOS : [
+					{
+						string: navigator.platform,
+						subString: "Win",
+						identity: "Windows"
+					},
+					{
+						string: navigator.platform,
+						subString: "Mac",
+						identity: "Mac"
+					},
+					{
+						   string: navigator.userAgent,
+						   subString: "iPhone",
+						   identity: "iPhone/iPod"
+					},
+					{
+						string: navigator.platform,
+						subString: "Linux",
+						identity: "Linux"
+					}
+				]
+
+			};
+			BrowserDetect.init();
+
+if(!(BrowserDetect.browser=='Explorer' && parseInt(BrowserDetect.version) < 8)){
+	
+	  
+
+	
+		if(typeof pnetIntCallback == 'undefined'){
+			var pnetIntCallback = "pnetSlideUp";
+
+		}
+
+
+		function pnetSlideUp(){
+			return false;
+		}
+
+
+		intextContFlag = document.createElement('div');
+		intextContFlag.setAttribute('id','intextContFlag');
+		intextContFlag.style.width = "0px";
+		intextContFlag.style.height = "0px";
+		if(document.currentScript!=undefined){
+			document.currentScript.parentNode.insertBefore(intextContFlag, intextContFlag.nextSibling);
+		}else{
+			pnetScript = document.querySelectorAll('script[src*="adsby.publicidad.net/ad/adip/"]')[0];
+			pnetScript.parentNode.insertBefore(intextContFlag, intextContFlag.nextSibling);
+		}
+		
+
+		intextCont = document.createElement('div');
+		intextCont.setAttribute('id','intextCont');
+		intextCont.style.width = "100%";
+		intextCont.style.height = "0px";
+    	intextCont.style.background = "transparent";
+		intextCont.style.overflow = "hidden";
+		intextCont.style.margin = "0 auto";
+		intextCont.style.display = "inline-block";
+		intextCont.style.textAlign = "center";
+		if(document.currentScript!=undefined){
+			document.currentScript.parentNode.insertBefore(intextCont, intextCont.nextSibling);
+		}else{
+			pnetScript = document.querySelectorAll('script[src*="adsby.publicidad.net/ad/adip/"]')[0];
+			pnetScript.parentNode.insertBefore(intextCont, intextCont.nextSibling);
+		}
+
+		pnetPubSpan = document.createElement('div');
+		pnetPubSpan.style.width = "100%";
+		pnetPubSpan.style.height = "20px";
+		pnetPubSpan.style.fontFamily = "Arial";
+		pnetPubSpan.style.fontSize = "10px";
+		pnetPubSpan.style.textAlign = "center";
+		pnetPubSpan.style.lineHeight = "19px";
+		pnetPubSpan.style.fontWeight = "normal";
+		pnetPubSpan.style.letterSpacing = "0px";
+		pnetPubSpan.style.color = "#A9A9A9";
+
+		pnetPubText = document.createTextNode("Publicidad");
+		pnetPubSpan.appendChild(pnetPubText);
+		intextCont.appendChild(pnetPubSpan);
+
+
+
+		//document.write('<div id="intextContFlag" style="width:0px;height:0px;"></div>');
+		//document.write('<div id="intextCont" style="width:100%;height:0px;background:transparent;overflow:hidden;margin:0 auto;display:inline-block;text-align:center;"></div>');
+
+		//Calculamos las medidas con una proporcion 4:3
+		pnetPreWidth = parseInt(document.getElementById('intextCont').offsetWidth);
+		
+		
+		
+
+		if(pnetPreWidth > 640){
+			pnetPreWidth = 640;
+			pnetPreHeight = 480;
+		}else if(pnetPreWidth < 420){
+			pnetPreWidth = 420;
+			pnetPreHeight = 315;
+		}else{
+			pnetPreHeight = ((pnetPreWidth*9)/16);
+		}
+
+		function elementInViewport(el) {
+			var elemTop = el.getBoundingClientRect().top;
+			var elemBottom = el.getBoundingClientRect().bottom;
+
+			var isVisible = (elemBottom <= (window.innerHeight - 100));
+
+			return isVisible;
+
+
+	}
+
+
+
+		
+
+		if(adKeyword!=''){
+			adKeyword=encodeURIComponent(encodeURIComponent(adKeyword))+";impDomain="+encodeURIComponent(encodeURIComponent(encodeURIComponent("http://"+window.location.host+window.location.pathname)));
+		}else{
+			adKeyword="impDomain="+encodeURIComponent(encodeURIComponent(encodeURIComponent("http://"+window.location.host+window.location.pathname)));
+		}
+
+		
+		simbolPreWidth = 'px';
+		simbolPreHeight = 'px';
+		pbnet_visitId = "c1078b3195093f05d4bdfd00e0fef904";
+		
+		pnetWM = "1";
+		
+
+		if(elementInViewport(document.getElementById('intextContFlag'))){
+			var pnet_url_iframe = pbnet_video_path+'player_idp.php?width='+pnetPreWidth+simbolPreWidth+'&height='+pnetPreHeight+simbolPreHeight+'&pnetPreSite='+pnetPreSite+'&pnetPrePage='+pnetPrePage+'&adKeyword='+adKeyword+'&pnetIntCallback='+pnetIntCallback+'&pbnet_visitId='+pbnet_visitId+'&sURL='+escape(document.URL)+'&rand='+Math.random()+"&ad_ap=1&wm="+pnetWM;
+			
+		}else{
+			var pnet_url_iframe = pbnet_video_path+'player_idp.php?width='+pnetPreWidth+simbolPreWidth+'&height='+pnetPreHeight+simbolPreHeight+'&pnetPreSite='+pnetPreSite+'&pnetPrePage='+pnetPrePage+'&adKeyword='+adKeyword+'&pnetIntCallback='+pnetIntCallback+'&pbnet_visitId='+pbnet_visitId+'&sURL='+escape(document.URL)+'&rand='+Math.random()+"&wm="+pnetWM;
+		}
+		
+		
+		
+		if(pnetPreSite == '59205'){
+			
+			window.onload = function(){
+				if(!(document.getElementById("pbnet_preload")!=null || document.getElementById("pnet_preload")!=null)){
+					
+					console.log('player_add');
+					var pbnet_div_preroll = document.createElement('iframe');
+					pbnet_div_preroll.id = "pbnet_div_preroll";
+					pbnet_div_preroll.setAttribute('src',pnet_url_iframe);
+					pbnet_div_preroll.setAttribute('scrolling','no');
+					pbnet_div_preroll.style.width = pnetPreWidth+simbolPreWidth;
+					pbnet_div_preroll.style.height = pnetPreHeight+simbolPreHeight;
+					pbnet_div_preroll.style.border = '0px';
+					pbnet_div_preroll.style.padding = '0px';
+					pbnet_div_preroll.style.margin = '0px';
+					pbnet_div_preroll.style.height = pnetPreHeight+simbolPreHeight;
+					pbnet_div_preroll.style.position =  "relative";
+					pbnet_div_preroll.style.zIndex =  998;
+					pbnet_div_preroll.style.backgroundColor = "#000000";
+			
+					document.getElementById('intextCont').appendChild(pbnet_div_preroll);
+					
+					
+					pnetIframeFlag = false;
+					pnetIframeObject = top.frames['pbnet_div_preroll'];
+					pbnet_div_preroll.onload = function(){
+						pnetIframeFlag = true;
+						if(elementInViewport(document.getElementById('intextContFlag'))){
+							
+							pnetAdPlayPlayer();
+						}
+			
+						
+					}
+				}
+				
+				
+			}
+			
+		}else{
+			
+				console.log('player_add');
+				var pbnet_div_preroll = document.createElement('iframe');
+				pbnet_div_preroll.id = "pbnet_div_preroll";
+				pbnet_div_preroll.setAttribute('src',pnet_url_iframe);
+				pbnet_div_preroll.setAttribute('scrolling','no');
+				pbnet_div_preroll.style.width = pnetPreWidth+simbolPreWidth;
+				pbnet_div_preroll.style.height = pnetPreHeight+simbolPreHeight;
+				pbnet_div_preroll.style.border = '0px';
+				pbnet_div_preroll.style.padding = '0px';
+				pbnet_div_preroll.style.margin = '0px';
+				pbnet_div_preroll.style.height = pnetPreHeight+simbolPreHeight;
+				pbnet_div_preroll.style.position =  "relative";
+				pbnet_div_preroll.style.zIndex =  998;
+				pbnet_div_preroll.style.backgroundColor = "#000000";
+		
+				document.getElementById('intextCont').appendChild(pbnet_div_preroll);
+				
+				
+				pnetIframeFlag = false;
+				pnetIframeObject = top.frames['pbnet_div_preroll'];
+				pnetIframeObject.onload = function(){
+					pnetIframeFlag = true;
+					if(elementInViewport(document.getElementById('intextContFlag'))){
+						
+						pnetAdPlayPlayer();
+					}
+		
+					
+				}
+			
+		}
+
+		
+
+
+	
+
+
+
+	if (!window.addEventListener) {
+		window.attachEvent('onmessage', function(e) {
+		  var extFuncName = e.data;
+		  if(extFuncName=='finPreroll' || extFuncName=='finPreRoll' || extFuncName=='pnetAlterCallback' || extFuncName=='closeAd' || extFuncName=='closeAds' || extFuncName == pnetIntCallback || extFuncName=='pnetSlideDown'){
+		    if(!(extFuncName=='pnetSlideDown')){							
+				document.getElementById('intextCont').style.display="none";
+			}
+			
+			setTimeout(extFuncName+'();',50);
+			
+		  }
+		  
+	   
+	});
+	}else {
+		window.addEventListener('message', function(e) {
+		  var extFuncName = e.data;
+		  if(extFuncName=='finPreroll' ||   extFuncName=='finPreRoll' || extFuncName=='pnetAlterCallback' || extFuncName=='closeAd' || extFuncName=='closeAds' || extFuncName == pnetIntCallback || extFuncName=='pnetSlideDown'){
+		   if(!(extFuncName=='pnetSlideDown')){
+				document.getElementById('intextCont').style.display="none";
+		   }
+			setTimeout(extFuncName+'();',50);
+			
+		  }
+
+		});
+	}
+
+
+
+	
+	
+
+	function getYScrollOffset() {
+			
+			
+
+			// This works for all browsers except IE versions 8 and before
+			if ( window.pageYOffset != null ){
+				return window.pageYOffset;
+			} 
+			   
+			 
+
+			// For browsers in Standards mode
+			var doc = window.document;
+			if ( document.compatMode === "CSS1Compat" ) {
+				return doc.documentElement.scrollTop;
+			}
+
+			// For browsers in Quirks mode
+
+			return doc.body.scrollTop 
+
+		}
+
+
+	function getInnerHeight(){
+
+		if(window.innerHeight!=null){
+			return window.innerHeight;
+		}
+
+		return document.documentElement.clientHeight;
+	}
+
+
+	function offsetY(elem) {
+		if(!elem) elem = this;
+
+		
+		var y = elem.offsetTop;
+
+		while (elem = elem.offsetParent) {
+			y += elem.offsetTop;
+		}
+
+		return y;
+	}
+
+
+
+
+			var pnetMinheight = 0;
+			var pnetMaxheight = parseInt(pnetPreHeight)+20;
+			var pnetOpacity = 1;
+			var pnetTime = 1000;
+			var pnetTimer = null;
+			var pnetToggled = false;
+			var pnetSlider = null
+
+
+		var EventListener = function(element, callback) {
+			this._el = element;
+			this._cb = callback;
+			this._at = false;
+			this._hasBeenVisible = false;
+			this._hasBeenInvisible = true;
+			var  _me = this;
+
+			window.onscroll = function() {
+
+				for (q in EventListener.queue.onvisible) {
+					EventListener.queue.onvisible[q].call();
+				}
+			};
+
+			return {
+				onvisible: function() {
+					
+					EventListener.queue.onvisible.push(function() {
+						
+					
+						
+
+						if (!_me._at && _me._hasBeenInvisible && (getYScrollOffset() + getInnerHeight()) > (offsetY(element) + (parseInt(pnetPreHeight)-400)) && getYScrollOffset() < (offsetY(element) + _me._el.scrollHeight + (parseInt(pnetPreHeight)-400))) {
+					
+								
+							_me._cb.call();
+							_me._at = true;
+							_me._hasBeenVisible = true;
+						}
+					});
+				}
+			   
+			};
+		}
+		EventListener.queue = {
+			onvisible:   []
+		};
+
+		function addListener(element, event, fn) {
+			console.log('event');
+			if (typeof element == 'string')
+				element = document.getElementById(element);
+
+			var listener = new EventListener(element, fn);
+
+			if (listener['on' + event.toLowerCase()])
+				return listener['on' + event.toLowerCase()].call();
+		} 
+
+		var pnetLoaded = false;
+		function pnetAdPlayPlayer(){
+				if(!pnetLoaded){
+					if(document.getElementById("pbnet_preload")!=null || document.getElementById("pnet_preload")!=null){
+						pnetLoaded = true;
+												
+					}else{
+						
+						if(typeof pbnet_div_preroll!='undefined'){
+							pbnet_div_preroll.contentWindow.postMessage("pnetAdPlayPlayer",pnet_url_iframe);
+							pnetLoaded = true;		 							
+						}
+					}
+					
+				 }
+				 			
+		}
+   
+
+		function pnetSlideDown() { 
+				
+				
+				clearInterval(pnetTimer);
+				var pnetInstanceheight = parseInt(pnetSlider.style.height);
+				var pnetInstanceopacity = pnetSlider.style.opacity;
+				var pnetInit = (new Date()).getTime();
+				var pnetHeight = (pnetToggled = !pnetToggled) ? pnetMaxheight : pnetMinheight;
+				var pnetDisp = pnetHeight - parseInt(pnetSlider.style.height);
+				pnetTimer = setInterval(function() {
+					var pnetInstance = (new Date()).getTime() - pnetInit;
+					if(pnetInstance < pnetTime ) {
+						var pnetCon = pnetInstance / pnetTime;
+						var pnetPos = Math.floor(pnetDisp * pnetCon);
+						result = pnetInstanceheight + pnetPos;
+						pnetSlider.style.height =  result + 'px';
+						if(pnetToggled) {
+							pnetSlider.style.opacity = pnetOpacity * pnetCon; //opacity
+						}
+					}else {
+						pnetSlider.style.height = pnetHeight + 'px'; 
+						pnetSlider.style.opacity = pnetOpacity;
+						clearInterval(pnetTimer);
+					}
+				},1);
+		  }
+
+		pnetSlider = document.getElementById('intextCont');	
+
+				
+		
+		
+		
+		setTimeout(function(){
+			
+			if(pnetPreSite == '73756'){
+				document.onscroll = function(){
+					
+					if(elementInViewport(document.getElementById('intextContFlag'))){
+
+							pnetAdPlayPlayer();
+					}
+				}
+				
+			}else{
+				window.onscroll = function(){
+				
+					if(elementInViewport(document.getElementById('intextContFlag'))){
+
+							pnetAdPlayPlayer();
+					}
+				}
+
+				
+			}
+						
+			
+		
+		},1000);
+		
+		
+
+
+
+
+
+		
+}
+}É™'n      Vä¯vVä¯w<:×I       H:http://adsby.publicidad.net/ad/adip/?r=a8fe973bb4656d69e42d5609c08b9096 request-method GET response-head HTTP/1.1 200 OK
+Server: nginx/1.6.2
+Date: Sun, 13 Mar 2016 00:07:30 GMT
+Content-Type: text/javascript;charset=UTF-8
+ uncompressed-len 0   ;ó

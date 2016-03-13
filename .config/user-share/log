@@ -1,0 +1,34 @@
+[Fri Mar 11 00:07:36.431383 2016] [core:notice] [pid 4463] SELinux policy enabled; httpd running as context unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+[Fri Mar 11 00:07:36.433767 2016] [auth_digest:notice] [pid 4464] AH01757: generating secret for digest authentication ...
+[Fri Mar 11 00:07:36.434723 2016] [mpm_prefork:notice] [pid 4464] AH00163: Apache/2.4.16 (Fedora) configured -- resuming normal operations
+[Fri Mar 11 00:07:36.434745 2016] [core:notice] [pid 4464] AH00094: Command line: '/usr/sbin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 41693'
+[Fri Mar 11 00:07:39.950912 2016] [mpm_prefork:notice] [pid 4464] AH00169: caught SIGTERM, shutting down
+[Sat Mar 12 17:20:51.256647 2016] [core:notice] [pid 2096] SELinux policy enabled; httpd running as context unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+[Sat Mar 12 17:20:51.275717 2016] [auth_digest:notice] [pid 2120] AH01757: generating secret for digest authentication ...
+[Sat Mar 12 17:20:51.277318 2016] [mpm_prefork:notice] [pid 2120] AH00163: Apache/2.4.16 (Fedora) configured -- resuming normal operations
+[Sat Mar 12 17:20:51.277350 2016] [core:notice] [pid 2120] AH00094: Command line: '/usr/sbin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 41794'
+[Sat Mar 12 19:14:15.384576 2016] [core:notice] [pid 1946] SELinux policy enabled; httpd running as context unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+[Sat Mar 12 19:14:15.387412 2016] [auth_digest:notice] [pid 1955] AH01757: generating secret for digest authentication ...
+[Sat Mar 12 19:14:15.388901 2016] [mpm_prefork:notice] [pid 1955] AH00163: Apache/2.4.16 (Fedora) configured -- resuming normal operations
+[Sat Mar 12 19:14:15.388922 2016] [core:notice] [pid 1955] AH00094: Command line: '/usr/sbin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 59854'
+[Sat Mar 12 20:20:58.348343 2016] [core:notice] [pid 1930] SELinux policy enabled; httpd running as context unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+[Sat Mar 12 20:20:58.360648 2016] [auth_digest:notice] [pid 1943] AH01757: generating secret for digest authentication ...
+[Sat Mar 12 20:20:58.364402 2016] [mpm_prefork:notice] [pid 1943] AH00163: Apache/2.4.16 (Fedora) configured -- resuming normal operations
+[Sat Mar 12 20:20:58.364548 2016] [core:notice] [pid 1943] AH00094: Command line: '/usr/sbin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 50120'
+[Sun Mar 13 00:21:32.296195 2016] [core:notice] [pid 1880] SELinux policy enabled; httpd running as context unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+[Sun Mar 13 00:21:32.299231 2016] [auth_digest:notice] [pid 1881] AH01757: generating secret for digest authentication ...
+[Sun Mar 13 00:21:32.301569 2016] [mpm_prefork:notice] [pid 1881] AH00163: Apache/2.4.16 (Fedora) configured -- resuming normal operations
+[Sun Mar 13 00:21:32.301601 2016] [core:notice] [pid 1881] AH00094: Command line: '/usr/sbin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 37096'
+[Sun Mar 13 01:29:17.604256 2016] [mpm_prefork:notice] [pid 1881] AH00169: caught SIGTERM, shutting down
+[Sun Mar 13 01:30:04.966856 2016] [core:notice] [pid 1857] SELinux policy enabled; httpd running as context unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+[Sun Mar 13 01:30:04.970263 2016] [auth_digest:notice] [pid 1861] AH01757: generating secret for digest authentication ...
+[Sun Mar 13 01:30:04.972409 2016] [mpm_prefork:notice] [pid 1861] AH00163: Apache/2.4.16 (Fedora) configured -- resuming normal operations
+[Sun Mar 13 01:30:04.972429 2016] [core:notice] [pid 1861] AH00094: Command line: '/usr/sbin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 59109'
+[Sun Mar 13 14:11:00.283722 2016] [core:notice] [pid 1944] SELinux policy enabled; httpd running as context unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+[Sun Mar 13 14:11:00.301010 2016] [auth_digest:notice] [pid 1945] AH01757: generating secret for digest authentication ...
+[Sun Mar 13 14:11:00.305034 2016] [mpm_prefork:notice] [pid 1945] AH00163: Apache/2.4.16 (Fedora) configured -- resuming normal operations
+[Sun Mar 13 14:11:00.305185 2016] [core:notice] [pid 1945] AH00094: Command line: '/usr/sbin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 49008'
+[Sun Mar 13 16:15:53.693831 2016] [core:notice] [pid 1910] SELinux policy enabled; httpd running as context unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+[Sun Mar 13 16:15:53.721097 2016] [auth_digest:notice] [pid 1911] AH01757: generating secret for digest authentication ...
+[Sun Mar 13 16:15:53.726629 2016] [mpm_prefork:notice] [pid 1911] AH00163: Apache/2.4.16 (Fedora) configured -- resuming normal operations
+[Sun Mar 13 16:15:53.726708 2016] [core:notice] [pid 1911] AH00094: Command line: '/usr/sbin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 53243'

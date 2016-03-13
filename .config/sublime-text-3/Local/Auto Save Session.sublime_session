@@ -1,0 +1,337 @@
+{
+	"folder_history":
+	[
+		"/var/www/html/Laravel",
+		"/var/www/html/Laravel/app"
+	],
+	"last_version": 3103,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"h",
+						"h1	Tag"
+					],
+					[
+						"t",
+						"td	Tag"
+					],
+					[
+						"Poke",
+						"Pokemon"
+					],
+					[
+						"Po",
+						"Pokemon"
+					],
+					[
+						"Re",
+						"Request"
+					],
+					[
+						"di",
+						"div	Tag"
+					],
+					[
+						"form",
+						"form-control"
+					],
+					[
+						"li",
+						"link	Tag"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/var/www/html/Laravel/app/Http/Controllers/PokemonController.php",
+					"settings":
+					{
+						"buffer_size": 2638,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/var/www/html/Laravel/resources/views/vistapokes/actualizar.blade.php",
+					"settings":
+					{
+						"buffer_size": 1758,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/var/www/html/Laravel",
+				"/var/www/html/Laravel/app",
+				"/var/www/html/Laravel/app/Http",
+				"/var/www/html/Laravel/app/Http/Controllers",
+				"/var/www/html/Laravel/database",
+				"/var/www/html/Laravel/public",
+				"/var/www/html/Laravel/public/css",
+				"/var/www/html/Laravel/resources",
+				"/var/www/html/Laravel/resources/lang",
+				"/var/www/html/Laravel/resources/lang/en",
+				"/var/www/html/Laravel/resources/views",
+				"/var/www/html/Laravel/resources/views/vistapokes"
+			],
+			"file_history":
+			[
+				"/var/www/html/Laravel/resources/views/vistapokes/principal.blade.php",
+				"/var/www/html/Laravel/resources/views/vistacuerpo/vpokecuerpo.blade.php",
+				"/var/www/html/Laravel/public/css/h.css",
+				"/var/www/html/Laravel/resources/views/vistapokes/prueba.blade.php",
+				"/var/www/html/Laravel/resources/views/vistapokes/actualizar.blade.php",
+				"/var/www/html/Laravel/resources/views/vistapokes/pruba.blade.php",
+				"/var/www/html/Laravel/resources/views/vistapokes/registropoke.blade.php",
+				"/var/www/html/Laravel/resources/views/vistapokes/pokecuerpo/vistacuerpo.blade.php",
+				"/var/www/html/Laravel/app/Http/Controllers/PokemonController.php",
+				"/var/www/html/Laravel/resources/views/vistapokes/vistaheader.blade.php",
+				"/var/www/html/Laravel/app/Http/Requests/PokemonRequest.php",
+				"/var/www/html/Laravel/database/migrations/2016_03_12_234244_create_pokemon_table.php",
+				"/var/www/html/Laravel/config/app.php",
+				"/var/www/html/Laravel/composer.json",
+				"/var/www/html/Laravel/app/Pokemon.php",
+				"/var/www/html/Laravel/.env",
+				"/var/www/html/Laravel/database/migrations/2014_10_12_000000_create_users_table.php",
+				"/var/www/html/Laravel/app/Http/routes.php"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/var/www/html/Laravel"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/var/www/html/Laravel/app/Http/Controllers/PokemonController.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2638,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1694,
+										1694
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 901.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/var/www/html/Laravel/resources/views/vistapokes/actualizar.blade.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1758,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										332,
+										332
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 8.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,27,637,507,1024,768",
+			"project": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 251.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
